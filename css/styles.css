@@ -350,10 +350,11 @@ img {
 /* #region Footer */
 .footer {
   background: rgb(var(--cl-navy-blue));
+  padding: 100px 0;
 }
 
 .container.container-footer {
-  padding: 100px 0;
+  padding: 0;
 }
 
 .footer-logo {
