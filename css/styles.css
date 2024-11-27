@@ -352,9 +352,13 @@ img {
   background: rgb(var(--cl-navy-blue));
 }
 
+.container.container-footer {
+  padding: 100px 0;
+}
+
 .footer-logo {
-  margin-top: 101.5px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-light {
@@ -365,8 +369,6 @@ img {
   letter-spacing: 0.02em;
   color: rgb(var(--cl-cloud));
   width: 264px;
-  margin-top: 16px;
-  padding-bottom: 100px;
   display: block;
 }
 /* #endregion */
