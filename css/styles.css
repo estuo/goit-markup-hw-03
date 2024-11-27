@@ -315,10 +315,11 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: rgb(var(--cl-navy-blue));
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
-  margin-top: 72px;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
@@ -328,7 +329,7 @@ img {
 }
 
 .portfolio-item-wrapper {
-  padding: 32px 0;
+  padding: 32px 16px;
   border: 1px solid rgb(var(--cl-cornflower));
   border-top: none;
 }
@@ -338,12 +339,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: rgb(var(--cl-navy-blue));
-  padding: 0 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-desc {
-  padding: 0 16px;
-  margin-top: 8px;
 }
 /* #endregion */
 
