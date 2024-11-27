@@ -132,7 +132,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .header-logo {
@@ -146,6 +145,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: rgb(var(--cl-iris));
+  margin-right: 76px;
 }
 
 .logo-dark {
@@ -154,9 +154,7 @@ img {
 
 .header-nav-list {
   display: flex;
-  justify-content: space-between;
   gap: 40px;
-  align-items: center;
 }
 
 .header-nav-item {
@@ -166,7 +164,7 @@ img {
   font-weight: 500;
   color: rgb(var(--cl-navy-blue));
   display: inline-block;
-  padding: 23.5px 0;
+  padding: 24px 0;
 }
 
 .header-address {
@@ -174,8 +172,8 @@ img {
 
 .header-address-list {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  gap: 40px;
+  /* align-items: center; */
 }
 
 .header-address-item {
